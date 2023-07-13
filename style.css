@@ -1,0 +1,179 @@
+#main-header {
+  display: flex;
+  background-color: chartreuse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+body{
+  background-color: #FFEFCD;
+}
+
+
+#main-header li {
+  list-style: none;
+  display: inline-flex;
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+h2:hover {
+  cursor: pointer;
+}
+
+a:hover {
+  cursor: pointer;
+  color: white;
+}
+
+main {
+  display: grid;
+  grid-template-areas: "b1 b2 b3 b4";
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0.5px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  font-size: 22rem;
+  display: inline;
+  text-align: center;
+  border: dotted 0px;
+  border-radius: 4px;
+  height: 83vh;
+  position: relative;
+}
+
+.subbox1,
+.subbox2,
+.subbox3,
+.subbox4 {
+  font-size: 0px;
+  width: 1px;
+  position: absolute;
+  display: block;
+  text-align: start;
+  color: white;
+  border: solid 0px;
+  padding: 10px;
+  bottom: 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+  .subbox1-a,
+  .subbox2-a,
+  .subbox3-a,
+  .subbox4-a {
+    color: aliceblue;
+  }
+}
+
+.box1:hover {
+  cursor: pointer;
+  background-image: url(/photo-1578297886235-c521966ea880.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: ease-in-out 0.6s;
+  color: black;
+  font-size: 0px;
+  .subbox1 h2{
+    color: black;
+    font-size: 32px;
+    font-weight: bolder;
+  }
+  .subbox1-p{
+    font-size: 16px;
+  }
+  .subbox1 {
+    color: black;
+    width: 320px;
+  }
+  .subbox1-a:hover {
+    color: black;
+  }
+}
+.box2:hover {
+  cursor: pointer;
+  background-image: url(/3088792.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: ease-in-out 0.6s;
+  color: black;
+  font-size: 0px;
+  .subbox2 h2{
+    color: black;
+    font-size: 32px;
+    font-weight: bolder;
+  }
+  .subbox2-p{
+    font-size: 16px;
+  }
+  .subbox2 {
+    color: black;
+    width: 320px;
+  }
+  .subbox2-a:hover {
+    color: black;
+  }
+}
+.box3:hover {
+  cursor: pointer;
+  background-image: url(/Eiffel\ Tower.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: ease-in-out 0.6s;
+  color: black;
+  font-size: 0px;
+  .subbox3 h2{
+    color: black;
+    font-size: 32px;
+    font-weight: bolder;
+  }
+  .subbox3-p{
+    font-size: 16px;
+  }
+  .subbox3 {
+    color: black;
+    width: 320px;
+  }
+  .subbox3-a:hover {
+    color: black;
+  }
+}
+.box4:hover {
+  cursor: pointer;
+  background-image: url(/Wallpaper.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: ease-in-out 0.6s;
+  color: black;
+  font-size: 0px;
+  .subbox4 h2{
+    color: black;
+    font-size: 32px;
+    font-weight: bolder;
+  }
+  .subbox4-p{
+    font-size: 16px;
+  }
+  .subbox4 {
+    color: black;
+    width: 320px;
+  }
+  .subbox4-a:hover {
+    color: black;
+  }
+}
+
